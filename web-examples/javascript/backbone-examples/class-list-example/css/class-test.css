@@ -1,0 +1,64 @@
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0;
+	padding:0;
+}
+
+*html{
+	margin:0;
+	padding:0;
+}
+
+#wrapper {
+	width:1000px;
+	margin:auto;
+}
+
+#listapp {
+	margin: auto;
+    width: 411px;
+}
+
+#main {
+	border-color: black;
+    border-radius: 25px 25px 25px 25px;
+    border-style: solid;
+    padding: 20px;
+}
+
+#main p{
+	padding:7px 0;
+	margin:0;
+}
+
+#button {
+	float:left;
+}
+
+#class-list {
+	padding:0;
+}
+
+#class-list li {
+	list-style-type:none;
+	padding:3px 0;
+}
+
+.remove-student {
+	float:left;
+	padding-right:10px;
+}
+
+.failing {
+	background-color: red;
+    color: white;
+}
+
+#test-results {
+	margin: auto;
+    width: 411px;
+}
+
+#test-results p {
+	font-weight:bold;
+}
