@@ -1,0 +1,238 @@
+@import url("bootstrap.css");
+body {
+	background-color:#999999;
+}
+
+h1 {
+	font-size:28.5px
+}
+.dropdown-menu > li > a {
+	text-decoration:underline;
+}
+
+.row {
+	margin-left:0;
+	margin-left: 0;
+	border-radius: 25px 25px 25px 25px;
+}
+
+.active {
+	display:block !important;
+}
+
+.whole-back {
+	background:#FFF;
+	margin-bottom:10px;
+}
+
+[class*="span"] {
+    margin-left: 0;
+}
+
+.rs-main-nav {
+	float:right !important;
+}
+
+.navbar .navbar-inner {
+    background-color: #999;
+    background-image:none;
+    background-repeat: no-repeat;
+    border: 0px solid #D4D4D4;
+    border-radius:0;
+    box-shadow: 0 0 0 0;
+}
+
+.navbar .nav > li > a {
+    color: #000000;
+    text-shadow: 0 1px 0 #000000;
+}
+
+#header-bar {
+	background-image: linear-gradient(bottom, rgb(28,55,122) 36%, rgb(19,23,92) 61%);
+	background-image: -o-linear-gradient(bottom, rgb(28,55,122) 36%, rgb(19,23,92) 61%);
+	background-image: -moz-linear-gradient(bottom, rgb(28,55,122) 36%, rgb(19,23,92) 61%);
+	background-image: -webkit-linear-gradient(bottom, rgb(28,55,122) 36%, rgb(19,23,92) 61%);
+	background-image: -ms-linear-gradient(bottom, rgb(28,55,122) 36%, rgb(19,23,92) 61%);
+	
+	background-image: 
+		-webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.36, rgb(28,55,122)),
+		color-stop(0.61, rgb(19,23,92))
+	);
+	height:52px;
+	margin: auto;
+    width: 940px;
+	border-radius:15px;
+}
+
+#main-body {
+    border: 13px solid #000066;
+    height: 400px;
+    margin: 25px auto auto;
+    width: 665px;
+}
+
+.footer {
+    margin: auto;
+    width: 440px;
+}
+
+.clearfix {
+   float: none;
+   clear: both;
+}
+/*------- HOME ---------------*/
+#bodywrapper { width:666px; margin:0 auto; }
+
+/*------- SERVICES -----------*/
+.body-back {
+	background:#FFF;
+	margin-bottom: 15px;
+}
+
+#main-body-docs {
+    margin: 10px auto;
+    padding: 0;
+    width: 940px;
+}
+
+#main-body-docs h1{
+	text-align:left;
+	padding-left:15px;
+}
+
+#main-body-docs .reposition-text {
+	padding-left:0;
+}
+
+#main-body-docs .span4{
+	padding-top:29px;
+}
+
+#main-body-docs .span4 ul{
+	width:200px;
+}
+
+#main-body-docs .span8{
+
+}
+
+#main-body-docs h2, h3{
+	text-align:center;
+}
+
+#main-body-docs h5, h4{
+	padding:0 25px 0 15px;
+}
+
+#main-body-docs .rs-lists {
+	padding-left:220px;
+	list-style-type: circle;
+}
+
+#main-body-docs hr {
+    border-color: #13175C;
+    left: 0;
+    margin: 0;
+    position: relative;
+    width: 940px;
+}
+
+/*---------ABOUT US--------------*/
+#who-we-are {
+	display:none;
+}
+
+#bob {
+	display:none;
+}
+
+#janice {
+	display:none;
+}
+
+#allen {
+	display:none;
+}
+
+#clients {
+    display: none;
+    height: 525px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-right: 7px;
+}
+
+#clients h5 {
+	padding-bottom:20px;
+
+}
+
+#others {
+    display: none;
+    height: 525px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-right: 7px;
+}
+
+#others h5 {
+	padding-bottom:20px;
+
+}
+
+.team-style {
+	height:350px;
+}
+/*--------------RESOURCES----------*/
+#monthly {
+	display:none;
+}
+
+#quarterly {
+	display:none;
+}
+
+#new-business {
+	display:none;
+}
+
+.list-style {
+	list-style-type:decimal;
+}
+
+.download-this {
+    color: #1C377A;
+    float: right;
+    font-size: 0.8em;
+    position: relative;
+    right: 26px;
+    text-decoration: underline;
+    top: -41px;
+}
+
+.checklist-rules hr{
+    color: #000000;
+    left: 39px !important;
+    position: relative;
+    width: 468px !important;
+}
+
+.check-title {
+	text-align:center;
+	width: 522px;
+	padding-top: 26px;
+}
+
+/*--------CONTACT US PAGE---------*/
+.contact-body {
+	height:300px;
+}
+
+.contact-body p {
+	text-align:center;
+	padding-top: 139px;
+}

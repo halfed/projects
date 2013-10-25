@@ -1,0 +1,104 @@
+
+#homeslidesimage {
+    background: url("../imagesv2/background-theater.png") repeat-x scroll left top transparent;
+    left: 0;
+    padding-top: 0;
+    position: absolute;
+    top: 0;
+}
+* + html #homeslidesimage {
+    background: url("../imagesv2/background-theater.png") repeat-x scroll left top transparent;
+    overflow: hidden;
+}
+#homeslidesimage .slides_container {
+    background: url("../imagesv2/background-theater.png") repeat-x scroll left top transparent;
+    display: block;
+    height: 320px;
+    overflow: hidden;
+    width: 960px;
+}
+* + html #homeslidesimage {
+    background: url("../imagesv2/background-theater.png") repeat-x scroll left top transparent;
+    display: block;
+}
+#homeslidesimage .slides_container > div {
+    display: block;
+    height: 495px;
+    width: 960px;
+}
+.slidepagination {
+    left: 808px;
+    margin-left: 0;
+    position: absolute;
+    top: 280px;
+    z-index: 99;
+}
+* + html .slidepagination {
+    padding-left: 40px;
+    top: 290px;
+}
+.slidepagination li {
+    float: left;
+    list-style: none outside none;
+    margin-right: 12px;
+}
+.slidepagination li a {
+    background: url("../imagesv2/icon-dotsnew.png") repeat scroll 0 0 transparent;
+    display: block;
+    height: 8px;
+    text-indent: -9999px;
+    width: 9px;
+}
+.slidepagination li.current a {
+    background-position: -9px 0;
+}
+#homemodule1 {
+}
+#homemodule1.slides_container {
+    display: none;
+    margin-right: 20px;
+    overflow: hidden;
+    width: 275px;
+}
+#homemodule1.slides_container div {
+    display: block;
+    height: 152px;
+    width: 275px;
+}
+#homemodule2.slides_container {
+    display: block;
+    left: 7px;
+}
+#homemodule2.slides_container div {
+    display: block;
+    height: 152px;
+    width: 278px;
+}
+ul.homemodules > li > div {
+    position: relative;
+    width: 280px;
+}
+ul.homemodules > li > div > .prev {
+    background: url("../imagesv2/icon-modulearrows.png") repeat scroll 0 0 transparent;
+    display: block;
+    height: 29px;
+    left: 205px;
+    position: absolute;
+    text-indent: -9999px;
+    top: 135px;
+    width: 29px;
+    z-index: 100;
+}
+ul.homemodules > li > div .next {
+    background: url("../imagesv2/icon-modulearrows.png") no-repeat scroll -29px 0 transparent;
+    height: 29px;
+    left: 246px;
+    position: absolute;
+    text-indent: -9999px;
+    top: 135px;
+    width: 29px;
+    z-index: 100;
+}
+.slides_control {
+    height: 102px !important;
+}
